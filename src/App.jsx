@@ -74,7 +74,7 @@ function App() {
               <span className="name-highlight">James Thomson</span>
             </h2>
             <div className="welcome-subtitle">
-              <span className="typewriter">Systems Administrator & Developer</span>
+              <span className="typewriter">Full-Stack Developer & IT Professional</span>
             </div>
           </div>
         </div>
@@ -99,8 +99,8 @@ function App() {
           <nav className="nav">
             <a href="#about" className="nav-link">About</a>
             <a href="#skills" className="nav-link">Skills</a>
+            <a href="#experience" className="nav-link">Experience</a>
             <a href="#projects" className="nav-link">Projects</a>
-            <a href="#contact" className="nav-link">Contact</a>
           </nav>
         </div>
       </header>
@@ -116,20 +116,21 @@ function App() {
             <div className="about-content">
               <div className="bio-card">
                 <p className="bio">
-                  Full-stack developer with a passion for creating clean, efficient, and user-friendly applications. 
-                  I enjoy working with modern technologies and solving complex problems through code.
+                  Bachelor of Information Technology student at RMIT with professional experience in web development, 
+                  cloud infrastructure, and robotics. Currently working as a Full-Stack Developer at WebPal and 
+                  Casual Researcher at RMIT, specializing in React.js, Python, and ROS platform development.
                 </p>
                 <div className="stats">
                   <div className="stat">
-                    <span className="stat-number">3+</span>
+                    <span className="stat-number">2</span>
+                    <span className="stat-label">Current Roles</span>
+                  </div>
+                  <div className="stat">
+                    <span className="stat-number">4+</span>
                     <span className="stat-label">Years Experience</span>
                   </div>
                   <div className="stat">
-                    <span className="stat-number">50+</span>
-                    <span className="stat-label">Projects Completed</span>
-                  </div>
-                  <div className="stat">
-                    <span className="stat-number">10+</span>
+                    <span className="stat-number">15+</span>
                     <span className="stat-label">Technologies</span>
                   </div>
                 </div>
@@ -149,33 +150,115 @@ function App() {
             </div>
             <div className="skills-grid">
               <div className="skill-category">
-                <h3 className="skill-category-title">Frontend</h3>
+                <h3 className="skill-category-title">Programming Languages</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">React</span>
-                  <span className="skill-tag">JavaScript</span>
-                  <span className="skill-tag">TypeScript</span>
-                  <span className="skill-tag">HTML/CSS</span>
-                  <span className="skill-tag">Vue.js</span>
-                </div>
-              </div>
-              <div className="skill-category">
-                <h3 className="skill-category-title">Backend</h3>
-                <div className="skill-tags">
-                  <span className="skill-tag">Node.js</span>
                   <span className="skill-tag">Python</span>
-                  <span className="skill-tag">Express</span>
-                  <span className="skill-tag">MongoDB</span>
-                  <span className="skill-tag">PostgreSQL</span>
+                  <span className="skill-tag">Java</span>
+                  <span className="skill-tag">C#</span>
+                  <span className="skill-tag">C++</span>
+                  <span className="skill-tag">JavaScript</span>
+                  <span className="skill-tag">HTML/CSS</span>
+                  <span className="skill-tag">LUA</span>
                 </div>
               </div>
               <div className="skill-category">
-                <h3 className="skill-category-title">Tools & Other</h3>
+                <h3 className="skill-category-title">Web & Frameworks</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">Git</span>
-                  <span className="skill-tag">Docker</span>
-                  <span className="skill-tag">AWS</span>
-                  <span className="skill-tag">Figma</span>
+                  <span className="skill-tag">React.js</span>
+                  <span className="skill-tag">Node.js</span>
+                  <span className="skill-tag">SQL</span>
+                  <span className="skill-tag">GitHub</span>
+                  <span className="skill-tag">ROS Platform</span>
                   <span className="skill-tag">REST APIs</span>
+                </div>
+              </div>
+              <div className="skill-category">
+                <h3 className="skill-category-title">Cloud & Infrastructure</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">Microsoft Azure</span>
+                  <span className="skill-tag">Microsoft Entra</span>
+                  <span className="skill-tag">Intune</span>
+                  <span className="skill-tag">Domain Management</span>
+                  <span className="skill-tag">Addigy MDM</span>
+                  <span className="skill-tag">Proxmox</span>
+                </div>
+              </div>
+              <div className="skill-category">
+                <h3 className="skill-category-title">Networking & Systems</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">Cisco Networking</span>
+                  <span className="skill-tag">VLAN Routing</span>
+                  <span className="skill-tag">VoIP</span>
+                  <span className="skill-tag">NAS</span>
+                  <span className="skill-tag">Terminal/SSH</span>
+                  <span className="skill-tag">Screen Share</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Experience Section */}
+          <section id="experience" className="section">
+            <div className="section-header">
+              <h2 className="section-title">Professional Experience</h2>
+            </div>
+            <div className="experience-grid">
+              <div className="experience-card">
+                <div className="experience-header">
+                  <h3 className="experience-title">Full-Stack Developer</h3>
+                  <div className="experience-meta">
+                    <span className="experience-company">WebPal</span>
+                    <span className="experience-date">2024 - Present</span>
+                  </div>
+                </div>
+                <p className="experience-description">
+                  Developing web applications and managing cloud infrastructure. Specializing in domain management, 
+                  provisioning, Microsoft Admin, Azure, Entra, and Intune deployment across multiple business environments.
+                </p>
+                <div className="experience-tech">
+                  <span className="tech-tag">Azure</span>
+                  <span className="tech-tag">Microsoft Entra</span>
+                  <span className="tech-tag">Intune</span>
+                  <span className="tech-tag">Domain Management</span>
+                </div>
+              </div>
+
+              <div className="experience-card">
+                <div className="experience-header">
+                  <h3 className="experience-title">Casual Researcher</h3>
+                  <div className="experience-meta">
+                    <span className="experience-company">RMIT University</span>
+                    <span className="experience-date">Mid 2024 - Present</span>
+                  </div>
+                </div>
+                <p className="experience-description">
+                  Research and development of robotic systems including Tiago and Pepper robots. Building software 
+                  solutions using React.js, Python, and ROS platform for autonomous robotic applications.
+                </p>
+                <div className="experience-tech">
+                  <span className="tech-tag">React.js</span>
+                  <span className="tech-tag">Python</span>
+                  <span className="tech-tag">ROS</span>
+                  <span className="tech-tag">Robotics</span>
+                </div>
+              </div>
+
+              <div className="experience-card">
+                <div className="experience-header">
+                  <h3 className="experience-title">Bartender & Gaming Specialist</h3>
+                  <div className="experience-meta">
+                    <span className="experience-company">Various Venues</span>
+                    <span className="experience-date">2021 - 2023</span>
+                  </div>
+                </div>
+                <p className="experience-description">
+                  Worked in high-demand hospitality environments including Richmond Social and Harp of Erin Hotel. 
+                  Gained experience in customer service, machine maintenance, and technical troubleshooting.
+                </p>
+                <div className="experience-tech">
+                  <span className="tech-tag">Customer Service</span>
+                  <span className="tech-tag">Technical Support</span>
+                  <span className="tech-tag">Machine Maintenance</span>
                 </div>
               </div>
             </div>
@@ -189,58 +272,62 @@ function App() {
             <div className="projects-grid">
               <div className="project-card">
                 <div className="project-header">
-                  <h3 className="project-title">E-Commerce Platform</h3>
-                  <span className="project-status">Public</span>
+                  <h3 className="project-title">RMIT F1 Robotics Platform</h3>
+                  <span className="project-status">Research</span>
                 </div>
                 <p className="project-description">
-                  A full-stack e-commerce platform built with React and Node.js, featuring payment integration and admin dashboard.
+                  Built software for Tiago robots from PAL Robotics using React.js, Python, and ROS platform. 
+                  Developed multi-platform systems for autonomous robotic interactions.
                 </p>
                 <div className="project-tech">
-                  <span className="tech-tag">React</span>
-                  <span className="tech-tag">Node.js</span>
-                  <span className="tech-tag">MongoDB</span>
+                  <span className="tech-tag">React.js</span>
+                  <span className="tech-tag">Python</span>
+                  <span className="tech-tag">ROS</span>
+                  <span className="tech-tag">Robotics</span>
                 </div>
                 <div className="project-links">
-                  <a href="#" className="project-link">View Code</a>
-                  <a href="#" className="project-link">Live Demo</a>
+                  <a href="#" className="project-link">RMIT Research</a>
                 </div>
               </div>
 
               <div className="project-card">
                 <div className="project-header">
-                  <h3 className="project-title">Task Management App</h3>
-                  <span className="project-status">Public</span>
+                  <h3 className="project-title">Pepper Robot Multi-Platform System</h3>
+                  <span className="project-status">Research</span>
                 </div>
                 <p className="project-description">
-                  A collaborative task management application with real-time updates and team collaboration features.
+                  Developed comprehensive software systems for SoftBank Pepper robots, focusing on human-robot 
+                  interaction and autonomous behavior programming.
                 </p>
                 <div className="project-tech">
-                  <span className="tech-tag">Vue.js</span>
-                  <span className="tech-tag">Express</span>
-                  <span className="tech-tag">Socket.io</span>
+                  <span className="tech-tag">Python</span>
+                  <span className="tech-tag">ROS</span>
+                  <span className="tech-tag">AI/ML</span>
+                  <span className="tech-tag">SoftBank Robotics</span>
                 </div>
                 <div className="project-links">
-                  <a href="#" className="project-link">View Code</a>
-                  <a href="#" className="project-link">Live Demo</a>
+                  <a href="#" className="project-link">RMIT Research</a>
                 </div>
               </div>
 
               <div className="project-card">
                 <div className="project-header">
-                  <h3 className="project-title">Weather Dashboard</h3>
-                  <span className="project-status">Public</span>
+                  <h3 className="project-title">RMIT RedBackBots</h3>
+                  <span className="project-status">Open Source</span>
                 </div>
                 <p className="project-description">
-                  A responsive weather dashboard with location-based forecasts and interactive charts.
+                  Contributing to autonomous robot soccer league development. Working on AI algorithms, 
+                  computer vision, and autonomous decision-making systems for competitive robotics.
                 </p>
                 <div className="project-tech">
-                  <span className="tech-tag">JavaScript</span>
-                  <span className="tech-tag">Chart.js</span>
-                  <span className="tech-tag">API Integration</span>
+                  <span className="tech-tag">Python</span>
+                  <span className="tech-tag">Computer Vision</span>
+                  <span className="tech-tag">AI/ML</span>
+                  <span className="tech-tag">ROS</span>
                 </div>
                 <div className="project-links">
-                  <a href="#" className="project-link">View Code</a>
-                  <a href="#" className="project-link">Live Demo</a>
+                  <a href="#" className="project-link">View Project</a>
+                  <a href="#" className="project-link">RoboCup</a>
                 </div>
               </div>
             </div>
@@ -253,9 +340,9 @@ function App() {
         <div className="footer-content">
           <p>&copy; 2025 James Thomson.</p>
           <div className="social-links">
-            <a href="#" className="social-link">GitHub</a>
-            <a href="#" className="social-link">LinkedIn</a>
-            <a href="#" className="social-link">Email</a>
+            <a href="https://github.com/JimmieThomson" className="social-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/james-thomson-946a19294/" className="social-link">LinkedIn</a>
+            <a href="mailto:james@jamesbjthomson.com" className="social-link">Email</a>
           </div>
         </div>
       </footer>
